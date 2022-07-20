@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<fieldset class="border">
+    <form action="get">
+        <h1>ADMISSION FORM</h1>
+  <legend class="lone">
+            <p class="red">Required Fields are followed by *</p>
+
+        <h2>Student Details</h2>
+        <p>Student Name: * <input type="text" name="name" required> </p>
+        <fieldset class="gendr"> 
+        <legend >Gender*</legend>
+            <p>
+          Male <input type="radio" name="gender" id="MALE" required>
+          Female <input type="radio" name="gender" id="FEMALE" required> 
+    
+        </p>
+         </fieldset>
+         <p>Mother Name: * <input type="text" name="fname" required> </p>
+         <p>Father Name: * <input type="text" name="mname" required> </p>
+
+
+
+ <h4>Address:<textarea name="address" id="address" cols="100" rows="5"></textarea></h4>
+<p> Pincode: * <input type="number" name="pincode" id="pincode" required></p>
+</legend>
+<legend class="ltwo">
+<h2>EDUCATIONAL DETAILS</h2>
+<p>10th board Type: *
+    <select name="board_type" id="board_type" required>
+        <option value="">---select Type---</option>
+    <option value="cbse">cbse </option>
+    <option value="icse">icse</option>
+    <option value="state">State board</option>
+      </select>
+</p>
+   <p>Marks Acquired *<input type="number" name="marks" id="marks" required></p>
+   <p>total %: * <input type="number" name="percentage" id="percentage" required></p>
+  </legend>
+    <legend class="lthree">
+   <H2>Select Course stream </H2>
+         <fieldset class="str"> 
+        <legend >Stream*</legend>
+            <p>
+          PCMB <input type="checkbox" name="Stream" id="PCMB" required>
+          PCMC <input type="checkbox" name="Stream" id="PCMC" required>
+          PCME <input type="checkbox" name="Stream" id="PCME" required>
+
+          <h5>Language combination with english</h5>
+          Kannada <input type="checkbox" name="Stream" id="kannada" required>
+          Hindi <input type="checkbox" name="Stream" id="hindi" required>
+          Sanskrit <input type="checkbox" name="Stream" id="sanskrit" required>
+         
+    
+        </p>
+         </fieldset>
+     
+</legend>
+          <legend class="lfour">
+   <H2>Contact details </H2>
+         <fieldset class="contact"> 
+         <p> Ph No: * <input type="tel" name="tel" id="tel" required></p>
+      <p> Email: * <input type="email" name="email" id="email" required></p>
+        
+         
+         </fieldset>
+     
+</legend>
+      
+ <input class="submit" type="submit" value="submit now " width="50px" height="40px">
+
+
+
+</form>
+</fieldset>
+</body>
+</html>

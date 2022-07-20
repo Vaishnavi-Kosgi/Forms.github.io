@@ -1,0 +1,41 @@
+body h1{
+  color:#B2D29D;
+  text-decoration-line:overline underline;
+  text-decoration-style:dotted;
+  text-decoration-color: #82B660;
+  
+  
+}
+body h2{
+  color:#666666;
+}
+p.red{
+  color:red;
+}
+
+.gendr{
+  width:150px;
+  height:80px;
+}
+.submit:hover{
+  background-color:gray; 
+}
+.str{
+  width:300px;
+  height:150px;
+}
+.border{
+  background-color:#6685b4;
+  width:50%;
+  height:100%;
+  border-color:#E2DDE4;
+  border-radius:10px;
+}
+.lone,.ltwo,.lthree,.lfour{
+  background-color:#cae5ff;
+  padding:15px;
+  margin: 15px;
+  border: 1px;
+  border-radius: 5px;
+}
+.\
